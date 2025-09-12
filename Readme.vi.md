@@ -94,6 +94,6 @@ Dấu phẩy/chấm ngăn cách hàng nghìn đều được chấp nhận.
 - Không commit `TOKEN` thật lên repo public.
 - Chỉ thêm ID đáng tin vào `ADMIN_IDS`.
 
-[English README](README.md)
+[English README](Readme.md)
 
 

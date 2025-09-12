@@ -30,11 +30,7 @@ Ghi chú:
 5. Deploy và copy Web App URL (dạng `https://script.google.com/.../exec`).
 
 ### 4) Thiết lập Webhook cho Telegram
-Trong Apps Script editor, chạy hàm hỗ trợ (ví dụ `setWebhook(url)`) với Web App URL của bạn, hoặc thiết lập webhook qua Telegram API. Ví dụ (pseudo):
-
-```
-setWebhook('https://script.google.com/macros/s/XXXX/exec')
-```
+Truy cập url: https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<WEB_APP_URL>
 
 Mỗi lần re-deploy khiến URL thay đổi, cần gọi lại webhook.
 

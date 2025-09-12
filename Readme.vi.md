@@ -1,6 +1,6 @@
 ## Bot Quản Lý Thu Chi (Telegram + Google Sheets qua Apps Script)
 
-[English README](README.md)
+[English README](Readme.md)
 
 Một bot Telegram gọn nhẹ để ghi chép thu/chi và tạo báo cáo, lưu trữ trên Google Sheets.
 

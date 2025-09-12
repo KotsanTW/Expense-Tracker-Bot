@@ -5,7 +5,7 @@
 Một bot Telegram gọn nhẹ để ghi chép thu/chi và tạo báo cáo, lưu trữ trên Google Sheets.
 
 ### 1) Cài đặt nhanh
-Mở file `finance.gs` và cấu hình các hằng số sau:
+Mở file `finance.gs` (hoặc `finance_vietnamese` cho phiên bản tiếng việt) và cấu hình các hằng số sau:
 
 ```
 const TOKEN     = '<TELEGRAM_BOT_TOKEN>'; // token từ BotFather

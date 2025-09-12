@@ -15,7 +15,6 @@ const ADMIN_IDS = ['<admin_id_1>', '<admin_id_2>'];
 
 Notes:
 - Replace placeholders with your real values before deployment.
-- Do not commit your real token to a public repository.
 
 ### 2) Prepare Google Sheet
 - Create a Google Sheet (or reuse an existing one) and copy its ID as `SHEET_ID`.

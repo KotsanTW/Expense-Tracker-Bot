@@ -30,11 +30,7 @@ Notes:
 5. Deploy and copy the Web App URL (looks like `https://script.google.com/.../exec`).
 
 ### 4) Set Telegram webhook
-In the Apps Script editor, run a helper function you create (e.g., `setWebhook(url)`) with your Web App URL, or set webhook externally using Telegram API. Example (pseudo):
-
-```
-setWebhook('https://script.google.com/macros/s/XXXX/exec')
-```
+Access this url: https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<WEB_APP_URL>
 
 Re-run webhook setup whenever you re-deploy and the Web App URL changes.
 

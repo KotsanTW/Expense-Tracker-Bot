@@ -83,7 +83,14 @@ Dấu phẩy/chấm ngăn cách hàng nghìn đều được chấp nhận.
 - Lưu dữ liệu: mỗi giao dịch một dòng trong `transactions`.
 - Tin nhắn Telegram tối đa ~4096 ký tự; báo cáo dài sẽ tự chia nhỏ.
 
-### 10) Bảo mật
+## 10) Xử lý sự cố
+
+- **Không nhận được cập nhật:** kiểm tra lại webhook đã được trỏ đúng đến URL Web App hay chưa.  
+- **Lỗi quyền truy cập:** đảm bảo rằng Web App được triển khai với quyền cho phép truy cập công khai (Anyone hoặc Anyone with the link).  
+- **Không ghi được vào Google Sheet:** kiểm tra lại biến `SHEET_ID` và chắc chắn rằng tài khoản Apps Script có quyền chỉnh sửa Google Sheet đó.  
+
+
+### 11) Bảo mật
 - Không commit `TOKEN` thật lên repo public.
 - Chỉ thêm ID đáng tin vào `ADMIN_IDS`.
 

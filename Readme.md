@@ -5,7 +5,7 @@
 A lightweight Telegram bot to log income/expenses and generate reports, backed by Google Sheets.
 
 ### 1) Quick setup
-Open `finance.gs` and set these constants:
+Open `finance.gs` (or `finance_vietnamese` for vietnamese text) and set these constants:
 
 ```
 const TOKEN     = '<TELEGRAM_BOT_TOKEN>'; // from BotFather

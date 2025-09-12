@@ -1,6 +1,6 @@
 ## Finance Bot (Telegram + Google Sheets via Apps Script)
 
-[README Tiếng Việt](README.vi.md)
+[README Vietnamese](Readme.vi.md)
 
 A lightweight Telegram bot to log income/expenses and generate reports, backed by Google Sheets.
 

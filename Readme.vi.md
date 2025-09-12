@@ -15,7 +15,6 @@ const ADMIN_IDS = ['<admin_id_1>', '<admin_id_2>'];
 
 Ghi chú:
 - Thay thế placeholder bằng giá trị thật trước khi deploy.
-- Không commit token thật lên repo public.
 
 ### 2) Chuẩn bị Google Sheet
 - Tạo 1 Google Sheet (hoặc dùng sẵn) và copy `SHEET_ID`.

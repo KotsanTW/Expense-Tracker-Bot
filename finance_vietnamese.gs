@@ -526,14 +526,14 @@ function parseAmount(amount) {
   // Chuẩn hoá hàng nghìn
   const normalized = amount.replace(/[.,\s]/g, '').toLowerCase();
   if (normalized.endsWith('b')) {
-    return Number(normalized.slice(0, -1)) * 1_000_000_000;
+    return Number(normalized.slice(0, -1)) * 1000000000;
   }
   if (normalized.endsWith('m') || normalized.endsWith('tr')) {
     const base = normalized.endsWith('tr') ? normalized.slice(0, -2) : normalized.slice(0, -1);
-    return Number(base) * 1_000_000;
+    return Number(base) * 1000000;
   }
   if (normalized.endsWith('k')) {
-    return Number(normalized.slice(0, -1)) * 1_000;
+    return Number(normalized.slice(0, -1)) * 1000;
   }
   return Number(normalized) || 0;
 }

